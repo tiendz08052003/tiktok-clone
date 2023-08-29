@@ -1,0 +1,23 @@
+.content__flag__table__body__selec__items {
+  display: flex;
+  align-items: center;
+  word-break: break-all;
+  padding: 8px;
+  line-height: 17px;
+  min-height: 54px;
+  color: rgb(22, 24, 35);
+  cursor: pointer;
+}
+
+.content__flag__table__body__selec__items__content {
+  flex: 1;
+}
+
+.content__flag__table__body__selec__items__icon {
+  width: 20px;
+  height: 20px;
+}
+
+.content__flag__table__body__selec__items__icon--item {
+  font-size: 14px;
+}

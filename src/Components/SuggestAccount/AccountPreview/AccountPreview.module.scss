@@ -1,0 +1,68 @@
+.wrapper {
+  width: calc(var(--with_sibar) - 20px);
+  padding: 20px;
+}
+
+.Follow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.Infor {
+}
+
+.Follow-img {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.Infor__name {
+  cursor: pointer;
+}
+
+.Infor__Follow {
+  font-size: 17px;
+  line-height: 21.8px;
+  margin-top: 8px;
+}
+
+.Infor__Follow--name {
+  color: rgba(22, 24, 35, 0.75);
+}
+
+.Infor__Follow--quality {
+  color: var(--black-color);
+  margin-right: 6px;
+}
+
+.Infor__Follow--name + .Infor__Follow--name {
+  margin-left: 12px;
+}
+
+.Infor__name-name {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+
+.Infor__name-id {
+  font-size: 14px;
+  line-height: 18.4px;
+}
+
+.Infor__name-if {
+  position: relative;
+  line-height: 23.2px;
+}
+
+.Infor__name-tick {
+  width: 14px;
+  height: 14px;
+  margin-left: 4px;
+  color: #20d5ec;
+}

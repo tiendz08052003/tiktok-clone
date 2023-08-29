@@ -1,0 +1,133 @@
+@import 'normalize.css';
+@import '~video-react/styles/scss/video-react';
+
+:root {
+  // color
+  --primary-color: rgb(254, 44, 85);
+  --text-color: #fff;
+  --black-color: black;
+  --white-color: rgba(255, 255, 255, 1);
+  // length
+  --with_pages: 1150px;
+  --with_sibar: 340px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'ProximaNova', sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-rendering: optimizespeed;
+  overflow-y: overlay;
+}
+
+// Scrollbar
+
+html *::-webkit-scrollbar {
+  border-radius: 0;
+  width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(22, 24, 35, 0.06);
+}
+
+html *::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+html body *::-webkit-scrollbar {
+  display: none;
+}
+
+//font-familly
+@font-face {
+  font-family: ProximaNova;
+  src: url(/assest/fonts/Proxima-Nova-Regular.woff2);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(/assest/fonts/ProximaNova-Semibold.woff2);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: ProximaNova;
+  src: url(/assest/fonts/Proxima-Nova-Semibold.woff2);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: SofiaPro;
+  src: url(/assest/fonts/sofiapro-bold.woff2);
+  font-weight: 700;
+}
+
+button,
+input,
+[tabindex] {
+  outline: none;
+  border: none;
+}
+
+a {
+  color: var(--black-color);
+  text-decoration: none;
+}
+
+body {
+  .tippy-box {
+    padding: 4px 0;
+  }
+
+  .tippy-conten {
+    padding: 0 8px;
+  }
+}
+
+// mã màu của tiktok
+// --tux-colorPrimary: rgba(254, 44, 85, 1);
+// --tux-colorLink: rgba(254, 44, 85, 1);
+// --tux-colorPrimary2: rgba(22, 24, 35, 1);
+// --tux-colorTextPrimary: rgba(22, 24, 35, 1);
+// --tux-colorTextSecondary: rgba(22, 24, 35, .75);
+// --tux-colorTextTertiary: rgba(22, 24, 35, .5);
+// --tux-colorTextQuaternary: rgba(22, 24, 35, .34);
+// --tux-colorBGPrimary: rgba(255, 255, 255, 1);
+// --tux-colorBGSecondary: rgba(255, 255, 255, 1);
+// --tux-colorBGTertiary: rgba(255, 255, 255, 1);
+// --tux-colorBGQuaternary: rgba(255, 255, 255, 1);
+// --tux-colorBGQuinary: rgba(255, 255, 255, 1);
+// --tux-colorBGSecondary2: rgba(255, 255, 255, 1);
+// --tux-colorBGTertiary2: rgba(255, 255, 255, 1);
+// --tux-colorBGPlaceholderDefault: rgba(22, 24, 35, .06);
+// --tux-colorBGPlaceholderOpaque: rgba(241, 241, 241, 1);
+// --tux-colorBGInput: rgba(22, 24, 35, .06);
+// --tux-colorBGInput2: rgba(22, 24, 35, .06);
+// --tux-colorBGView: rgba(22, 24, 35, .03);
+// --tux-colorBGCreation3: rgba(248, 248, 248, 1);
+// --tux-colorBGCreation4: rgba(255, 255, 255, 1);
+// --tux-colorBGHover: rgba(22, 24, 35, .06);
+// --tux-colorBGBrand: rgba(254, 44, 85, .06);
+// --tux-colorLinePrimary: rgba(22, 24, 35, .2);
+// --tux-colorLineSecondary: rgba(22, 24, 35, .12);
+// --tux-colorLineInput: rgba(22, 24, 35, .5);
+// --tux-colorLinePrimary2: rgba(22, 24, 35, .2);
+// --tux-colorLineSecondary2: rgba(22, 24, 35, .12);
+// --tux-colorLineSecondary3: rgba(22, 24, 35, .12);
+// --tux-colorLineDarker: rgba(22, 24, 35, .12);
+// --tux-colorSDSecondary: rgba(0, 0, 0, .5);
+// --tux-colorSDTertiary: rgba(0, 0, 0, .2);

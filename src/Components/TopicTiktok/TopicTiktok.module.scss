@@ -1,0 +1,19 @@
+.wrapper {
+  padding: 16px 8px 8px;
+  font-size: 12px;
+}
+
+.topic {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+
+.topic__content {
+  margin-top: 0.8rem;
+  margin-right: 0.8rem;
+  font-weight: 600;
+  line-height: 1.8rem;
+  color: #727274;
+  font-weight: 300;
+}

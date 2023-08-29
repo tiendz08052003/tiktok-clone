@@ -1,0 +1,23 @@
+.wrapper {
+  position: fixed;
+  display: block;
+  width: var(--with_sibar);
+  height: calc(100vh - 60px);
+  padding-top: 2rem;
+  padding-left: 0.8rem;
+  overflow: overlay;
+  animation: scrollbar1 linear 1s scroll(block nearest);
+
+  &:hover::-webkit-scrollbar {
+    display: block;
+  }
+}
+
+@keyframes scrollbar1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,44 @@
+.nameAccount {
+  display: flex;
+  align-items: center;
+  padding: 9px 16px;
+  &:hover {
+    background-color: #f1f1f2;
+    cursor: pointer;
+  }
+}
+
+.nameAccount-ava {
+  width: 40px;
+  height: 40px;
+  margin-right: 12px;
+}
+
+.nameAccount-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.nameAccount-info {
+  flex: 1;
+}
+
+.nameAccount-topic {
+  font-size: 16px;
+  line-height: 22px;
+  color: #1693a3;
+}
+
+.nameAccount-icon {
+  margin-left: 0.5rem;
+  font-size: 1.4rem;
+  color: rgb(32, 213, 236);
+}
+
+.nameAccount-content {
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(22, 24, 35, 0.5);
+}

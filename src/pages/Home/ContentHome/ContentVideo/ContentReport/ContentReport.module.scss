@@ -1,0 +1,207 @@
+.content__flag__Noti {
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  animation: spinner1 0.2s linear;
+}
+
+@keyframes spinner1 {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.content__flag__table {
+  position: relative;
+  width: 700px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  animation: spinner2 0.2s linear;
+}
+
+@keyframes spinner2 {
+  from {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.content__flag__table__header {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(22, 24, 35);
+  padding: 24px 24px 16px;
+  font-weight: 700;
+  font-size: 20px;
+  border-bottom: 1px solid rgba(22, 24, 35, 0.12);
+  line-height: 32px;
+}
+
+.content__flag__table__main {
+  display: flex;
+  align-items: center;
+}
+
+.content__flag__table__header__back {
+  line-height: 100%;
+  padding: 6px;
+}
+
+.content__flag__table__header__back--icon {
+  width: 20px;
+  height: 20px;
+}
+
+.content__flag__table__header__content {
+}
+
+.content__flag__table__header__icon {
+  padding: 9px;
+  line-height: 10px;
+}
+
+.content__flag__table__header__icon--exit {
+  width: 14px;
+  height: 14px;
+}
+
+.content__flag__table__body {
+  padding: 16px 16px 0 16px;
+  height: 50vh;
+  overflow: overlay;
+  display: block;
+
+  &:hover::-webkit-scrollbar {
+    display: block;
+  }
+}
+
+.content__flag__table__body__header {
+  padding: 0 0 8px 8px;
+  font-size: 14px;
+  color: rgba(22, 24, 35, 0.75);
+  height: 22px;
+  line-height: 22px;
+}
+
+.content__flag__table__body__selec {
+}
+
+.content__flag__table__body__selec__last {
+  text-align: left;
+  padding: 0 0 84px 26px;
+  color: rgba(22, 24, 35, 0.75);
+  cursor: pointer;
+}
+
+.content__flag__table__body__selec__header {
+  font-size: 18px;
+  padding: 8px;
+  color: rgb(22, 24, 35);
+}
+
+.content__flag__table__body__selec__content {
+  font-size: 16px;
+  padding: 4px 4px 10px 8px;
+  color: rgba(22, 24, 35, 0.75);
+}
+
+.content__flag__table__body__selec__last--item {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 6px 0;
+}
+
+.content__flag__table__body__selec__footer {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 16px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 84px;
+  background-color: white;
+  border-top: 1px solid rgba(22, 24, 35, 0.12);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
+.content__flag__table__body__selec__footer--btn {
+}
+
+.content__flag__table__body__send {
+  height: 65vh;
+  overflow: overlay;
+  display: block;
+
+  &:hover::-webkit-scrollbar {
+    display: block;
+  }
+}
+
+.content__flag__table__body__send__header {
+  background-color: #f7f7f8;
+  padding: 16px 24px;
+  line-height: 22px;
+  height: 54px;
+  color: rgba(22, 24, 35, 0.75);
+  font-size: 16px;
+}
+
+.content__flag__table__body__send__content {
+  height: 24px;
+  line-height: 24px;
+  padding: 0 24px;
+  margin-top: 24px;
+  font-size: 18px;
+}
+
+.content__flag__table__body__send__extra {
+  line-height: 22px;
+  height: 22px;
+  padding: 0 24px;
+  margin-top: 10px;
+  color: rgba(22, 24, 35, 0.5);
+  font-size: 16px;
+}
+
+.content__flag__table__body__send__input {
+  padding: 0 24px;
+  margin-top: 12px;
+}
+
+.content__flag__table__body__send__input--item {
+  width: 100%;
+  color: rgb(22, 24, 35);
+  font-size: 16px;
+  line-height: 22px;
+  margin-top: 14px;
+  padding: 14px 0;
+  border-bottom: 1px solid #e2e3e4;
+}
+
+.content__flag__table__body__send__footer {
+  position: absolute;
+  bottom: 96px;
+  left: 0px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 20px;
+  color: rgba(22, 24, 35, 0.75);
+  padding: 0px 24px;
+}

@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.header__content {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.header__infor {
+  display: flex;
+  cursor: pointer;
+  height: 2.8rem;
+  line-height: 2.5rem;
+
+  &:hover .infor--name {
+    text-decoration: underline;
+  }
+}
+
+.infor--name {
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  margin-right: 0.5rem;
+  font-weight: 700;
+  &:hover {
+    text-decoration: underline solid;
+  }
+}
+.infor--id {
+  font-size: 1.4rem;
+  line-height: 2.5rem;
+}
+.header__status {
+  display: flex;
+  line-height: 2.2rem;
+}
+
+.header__music {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.2rem;
+  cursor: pointer;
+  margin: 4px 0 12px 0;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.header__music-song {
+  font-size: 1.6rem;
+  margin-left: 5px;
+}
+
+.header__button {
+  width: 8.8rem;
+  height: 2.8rem;
+  margin-top: 0.8rem;
+}
